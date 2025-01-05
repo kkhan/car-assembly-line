@@ -1,8 +1,17 @@
-build the car:
-  script:
-    - mkdir build
-    - cd build
-    - touch car.txt
-    - echo "chassis" > car.txt
-    - echo "engine" > car.txt
-    - echo "wheels" > car.txt
+{
+  "AkwamProvider": {
+    "name": "Akwam",
+    "url": "https://akwam.to",
+    "status": 1
+  },
+  "AllAnimeProvider": {
+    "name": "AllAnime",
+    "url": "https://allanime.site",
+    "status": 1
+  },
+  "AnimePaheProvider": {
+    "name": "AnimePahe",
+    "url": "https://animepahe.com",
+    "status": 0
+  }
+}
